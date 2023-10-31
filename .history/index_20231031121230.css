@@ -124,17 +124,7 @@ button .circle {
   justify-content: center;
   align-items: center;
 }
-.remove-btn {
-  width: 20px;
-  height: 20px;
-  border: 1px solid #c4c4c4;
-  color: #c4c4c4;
-  border-radius: 50%;
-  font-size: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.remove-btn:hover {
+.remove-btn:hover{
   background-color: #833ae0;
+
 }

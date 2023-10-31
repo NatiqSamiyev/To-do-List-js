@@ -2,7 +2,7 @@ let form = document.querySelector("form");
 let btn = document.querySelector("button");
 let ul = document.querySelector("ul");
 let input = document.querySelector(".text-input");
-let removeBtns;
+let removeBtns
 
 form.addEventListener("submit", sumbitForm);
 function sumbitForm(e) {
@@ -19,18 +19,12 @@ function sumbitForm(e) {
 
   form.reset();
 
-  removeBtns = document.querySelectorAll(".remove-btn");
-  removeBtns.forEach((element) => {
-    element.addEventListener("click", () => removeList(element));
-  });
+ removeBtns =document.querySelectorAll('.remove-btn')
+removeBtns.forEach((element)=>{
+element.addEventListener('click',()=>removeList)
+})
 }
 
-function removeList(element) {
-  element.parentElement.remove();
-  let allList = document.querySelectorAll("li");
-  if (allList.length > 0) {
-    ul.style.display = "block";
-  } else {
-    ul.style.display = "none";
-  }
+function removeList() {
+    console.log('rgfred');
 }
